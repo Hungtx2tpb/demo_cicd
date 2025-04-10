@@ -69,13 +69,13 @@ export default defineConfig({
 		// 		launchOptions: { args: ['--start-maximized'], slowMo: 0 },
 		// 	},
 		// },
-		{
-			name: 'webkit',
-			use: {
-				browserName: 'webkit',
-				viewport: null,
-				launchOptions: { args: ['--start-maximized'], slowMo: 0 },
-			}
-		}
+		// {
+		// 	name: 'webkit',
+		// 	use: {
+		// 		browserName: 'webkit',
+		// 		viewport: null,
+		// 		launchOptions: { args: ['--start-maximized'], slowMo: 0 },
+		// 	}
+		// }
 	],
 });
