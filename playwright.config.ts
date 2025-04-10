@@ -37,7 +37,8 @@ export default defineConfig({
 	workers: 1,
 	reporter: [['./src/setup/custom-logger.ts'], ['html', { open: 'never' }], ['list']],
 	use: {
-		headless: false,
+		headless: true,
+		browserName: 'chromium',
 		trace: 'on',
 		actionTimeout: ACTION_TIMEOUT,
 		ignoreHTTPSErrors: true,
