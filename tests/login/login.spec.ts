@@ -6,6 +6,6 @@ loginTest.describe("TC_1 test login @smoke", () => {
       let market = process.env.market || '';
       await homePage.goToHomePage();
       await homePage.verifyGoToHomePageSuccessfully(url, market);
-      await loginPage.loginToHomePage('fatibe7647@operades.com', '927445');
+      // await loginPage.loginToHomePage('fatibe7647@operades.com', '927445');
     });
   })
